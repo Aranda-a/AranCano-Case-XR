@@ -8,6 +8,13 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 
 > 为保护用户隐私与原创方案，本公开仓不包含产品源码、算法参数、坐标映射、完整 ADR、原始访谈、真实用户照片及未发布资产。
 
+## Reading Guide
+
+- **2 分钟**：继续阅读本页，了解产品、游戏化闭环和三轨决策；
+- **5 分钟**：阅读完整的 [`Case Study`](docs/CASE-STUDY.md)；
+- **设计 / 产品面试**：阅读 [`Validation Plan`](docs/VALIDATION.md)；
+- **素材审核**：查看 [`Portfolio Asset Plan`](assets/README.md) 与 [`Public Disclosure Notice`](NOTICE.md)。
+
 ---
 
 ## 1. Product Question
@@ -82,6 +89,8 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 > 一次可解释、可重试、可降级的进入风险，比互动全程持续发生的空间漂移更容易被接受。
 
 A 保留为兼容退路，B 保留为产品对照。当前属于配对可用性验证，不是随机分流的 A/B 实验。
+
+完整决策与产品过程见 [`docs/CASE-STUDY.md`](docs/CASE-STUDY.md)。
 
 ---
 

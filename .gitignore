@@ -1,0 +1,14 @@
+# Local exports and raw recordings
+raw/
+private/
+*.mov
+*.mp4
+*.wav
+*.psd
+*.fig
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.cursor/

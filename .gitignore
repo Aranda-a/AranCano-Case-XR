@@ -1,13 +1,8 @@
-# Local exports and raw recordings
+# Working copies, not the demo reel
 raw/
 private/
-*.mov
-*.mp4
-*.wav
-*.psd
-*.fig
 
-# System and editor files
+# System
 .DS_Store
 Thumbs.db
 .vscode/

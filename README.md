@@ -169,17 +169,85 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 
 ## 6. 展示材料
 
-以下公开材料将在完成脱敏和授权检查后逐步补充：
+当前先上界面橱窗；完整 Hero 视频稍后补入 `assets/`。
 
-1. **15 秒完整体验**：对准、出现、按压、塌陷、封印
-2. **闭环分镜**：目标、蓄力、高潮、结果和结束
-3. **按压反馈时间线**：视觉、声音、振动与文案如何同步
-4. **三轨同动作对比**：相同环境和镜头运动下的体验差异
-5. **贴附决策卡**：问题、证据、取舍、决定和可逆条件
-6. **失败与降级演示**：空间能力失败后如何解释与恢复
-7. **封印与记录结果**：奖励如何完成一次，而不是延长使用
+### 主路径一眼看懂
 
-素材规格见 [展示素材说明](assets/README.md)。
+从打开到按住，再到收束：
+
+<p>
+  <img src="assets/ui/08-home-cta.jpg" alt="主页：对准开捏" width="180" />
+  <img src="assets/ui/09-scan-aim.jpg" alt="对准蚊子包" width="180" />
+  <img src="assets/ui/10-surface-chooser.jpg" alt="选台面开捏" width="180" />
+  <img src="assets/ui/12-ar-ready-relock.jpg" alt="立体跟包与微调贴位" width="180" />
+  <img src="assets/ui/13-press-progress.jpg" alt="长按蓄力中" width="180" />
+  <img src="assets/ui/14-seal-post-mood.jpg" alt="封印与后测" width="180" />
+</p>
+
+### 1. 完整体验视频（待补）
+
+对准 → 出模 → 按压 → 塌陷 → 封印。短版约 15 秒作 Hero；完整走查约 60 秒另链。
+
+### 2. 闭环分镜
+
+引导把「想挠」改写成可完成的四步：
+
+<p>
+  <img src="assets/ui/02-guide-want-scratch.jpg" alt="想挠" width="140" />
+  <img src="assets/ui/03-guide-shutter.jpg" alt="快门" width="140" />
+  <img src="assets/ui/04-guide-recognize.jpg" alt="识别出包" width="140" />
+  <img src="assets/ui/05-guide-longpress.jpg" alt="长按" width="140" />
+  <img src="assets/ui/06-guide-seal.jpg" alt="出餐封印" width="140" />
+</p>
+
+### 3. 按压与多通道
+
+开捏前先问冲动，按住过程里进度、雷达和文案一起走：
+
+<p>
+  <img src="assets/ui/11-pre-press-mood.jpg" alt="开捏前冲动滑条" width="220" />
+  <img src="assets/ui/12-ar-ready-relock.jpg" alt="立体包已贴住" width="220" />
+  <img src="assets/ui/13-press-progress.jpg" alt="按压进度中段" width="220" />
+</p>
+
+### 4. 三轨同动作对比
+
+同镜 B/C 对比视频待补。当前先展示产品入口如何分配轨道角色：默认立体跟包（C），旁路轻量平面（A）。
+
+<p>
+  <img src="assets/ui/10-surface-chooser.jpg" alt="立体跟包与轻量平面" width="280" />
+</p>
+
+### 5. 贴附决策
+
+世界锚点稳住镜头运动；目标真的换位时，提示用户点「微调贴位」主动校正。
+
+<p>
+  <img src="assets/ui/12-ar-ready-relock.jpg" alt="微调贴位提示" width="280" />
+</p>
+
+### 6. 失败与降级
+
+选台面保留轻量平面退路；互动中也可「改走轻量平面」，同一次瞄准不必重拍。失败真机片段待补。
+
+### 7. 封印与记录
+
+完成凭证进记录，不靠排行榜留人：
+
+<p>
+  <img src="assets/ui/14-seal-post-mood.jpg" alt="今日已封印" width="200" />
+  <img src="assets/ui/15-record-calendar.jpg" alt="蚊子包记录月历" width="200" />
+  <img src="assets/ui/16-today-card.jpg" alt="今日入册" width="200" />
+</p>
+
+### 品牌与承诺（附录）
+
+<p>
+  <img src="assets/ui/01-onboard-annno.jpg" alt="Annno 介绍" width="200" />
+  <img src="assets/ui/07-promise-go-press.jpg" alt="对着真蚊子包捏" width="200" />
+</p>
+
+文件清单与拍摄规范见 [展示素材说明](assets/README.md)。
 
 ---
 

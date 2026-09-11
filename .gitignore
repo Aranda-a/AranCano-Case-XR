@@ -1,8 +1,13 @@
-# Working copies, not the demo reel
+# 本地导出与原始录制
 raw/
 private/
+*.mov
+*.mp4
+*.wav
+*.psd
+*.fig
 
-# System
+# 系统与编辑器
 .DS_Store
 Thumbs.db
 .vscode/

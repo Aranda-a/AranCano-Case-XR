@@ -169,19 +169,19 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 
 ## 6. 展示材料
 
-当前先上界面橱窗；完整 Hero 视频稍后补入 `assets/`。
+当前先上界面橱窗；完整 Hero 视频稍后补入 `assets/`。缩略图一排展示，点击可打开原图。
 
 ### 主路径一眼看懂
 
 从打开到按住，再到收束：
 
-<p>
-  <img src="assets/ui/08-home-cta.jpg" alt="主页：对准开捏" width="180" />
-  <img src="assets/ui/09-scan-aim.jpg" alt="对准蚊子包" width="180" />
-  <img src="assets/ui/10-surface-chooser.jpg" alt="选台面开捏" width="180" />
-  <img src="assets/ui/12-ar-ready-relock.jpg" alt="立体跟包与微调贴位" width="180" />
-  <img src="assets/ui/13-press-progress.jpg" alt="长按蓄力中" width="180" />
-  <img src="assets/ui/14-seal-post-mood.jpg" alt="封印与后测" width="180" />
+<p align="left">
+  <a href="assets/ui/08-home-cta.jpg"><img src="assets/ui/08-home-cta.jpg" alt="主页：对准开捏" width="72" /></a>
+  <a href="assets/ui/09-scan-aim.jpg"><img src="assets/ui/09-scan-aim.jpg" alt="对准蚊子包" width="72" /></a>
+  <a href="assets/ui/10-surface-chooser.jpg"><img src="assets/ui/10-surface-chooser.jpg" alt="选台面开捏" width="72" /></a>
+  <a href="assets/ui/12-ar-ready-relock.jpg"><img src="assets/ui/12-ar-ready-relock.jpg" alt="立体跟包与微调贴位" width="72" /></a>
+  <a href="assets/ui/13-press-progress.jpg"><img src="assets/ui/13-press-progress.jpg" alt="长按蓄力中" width="72" /></a>
+  <a href="assets/ui/14-seal-post-mood.jpg"><img src="assets/ui/14-seal-post-mood.jpg" alt="封印与后测" width="72" /></a>
 </p>
 
 ### 1. 完整体验视频（待补）
@@ -192,38 +192,38 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 
 引导把「想挠」改写成可完成的四步：
 
-<p>
-  <img src="assets/ui/02-guide-want-scratch.jpg" alt="想挠" width="140" />
-  <img src="assets/ui/03-guide-shutter.jpg" alt="快门" width="140" />
-  <img src="assets/ui/04-guide-recognize.jpg" alt="识别出包" width="140" />
-  <img src="assets/ui/05-guide-longpress.jpg" alt="长按" width="140" />
-  <img src="assets/ui/06-guide-seal.jpg" alt="出餐封印" width="140" />
+<p align="left">
+  <a href="assets/ui/02-guide-want-scratch.jpg"><img src="assets/ui/02-guide-want-scratch.jpg" alt="想挠" width="72" /></a>
+  <a href="assets/ui/03-guide-shutter.jpg"><img src="assets/ui/03-guide-shutter.jpg" alt="快门" width="72" /></a>
+  <a href="assets/ui/04-guide-recognize.jpg"><img src="assets/ui/04-guide-recognize.jpg" alt="识别出包" width="72" /></a>
+  <a href="assets/ui/05-guide-longpress.jpg"><img src="assets/ui/05-guide-longpress.jpg" alt="长按" width="72" /></a>
+  <a href="assets/ui/06-guide-seal.jpg"><img src="assets/ui/06-guide-seal.jpg" alt="出餐封印" width="72" /></a>
 </p>
 
 ### 3. 按压与多通道
 
 开捏前先问冲动，按住过程里进度、雷达和文案一起走：
 
-<p>
-  <img src="assets/ui/11-pre-press-mood.jpg" alt="开捏前冲动滑条" width="220" />
-  <img src="assets/ui/12-ar-ready-relock.jpg" alt="立体包已贴住" width="220" />
-  <img src="assets/ui/13-press-progress.jpg" alt="按压进度中段" width="220" />
+<p align="left">
+  <a href="assets/ui/11-pre-press-mood.jpg"><img src="assets/ui/11-pre-press-mood.jpg" alt="开捏前冲动滑条" width="72" /></a>
+  <a href="assets/ui/12-ar-ready-relock.jpg"><img src="assets/ui/12-ar-ready-relock.jpg" alt="立体包已贴住" width="72" /></a>
+  <a href="assets/ui/13-press-progress.jpg"><img src="assets/ui/13-press-progress.jpg" alt="按压进度中段" width="72" /></a>
 </p>
 
 ### 4. 三轨同动作对比
 
 同镜 B/C 对比视频待补。当前先展示产品入口如何分配轨道角色：默认立体跟包（C），旁路轻量平面（A）。
 
-<p>
-  <img src="assets/ui/10-surface-chooser.jpg" alt="立体跟包与轻量平面" width="280" />
+<p align="left">
+  <a href="assets/ui/10-surface-chooser.jpg"><img src="assets/ui/10-surface-chooser.jpg" alt="立体跟包与轻量平面" width="72" /></a>
 </p>
 
 ### 5. 贴附决策
 
 世界锚点稳住镜头运动；目标真的换位时，提示用户点「微调贴位」主动校正。
 
-<p>
-  <img src="assets/ui/12-ar-ready-relock.jpg" alt="微调贴位提示" width="280" />
+<p align="left">
+  <a href="assets/ui/12-ar-ready-relock.jpg"><img src="assets/ui/12-ar-ready-relock.jpg" alt="微调贴位提示" width="72" /></a>
 </p>
 
 ### 6. 失败与降级
@@ -234,17 +234,17 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 
 完成凭证进记录，不靠排行榜留人：
 
-<p>
-  <img src="assets/ui/14-seal-post-mood.jpg" alt="今日已封印" width="200" />
-  <img src="assets/ui/15-record-calendar.jpg" alt="蚊子包记录月历" width="200" />
-  <img src="assets/ui/16-today-card.jpg" alt="今日入册" width="200" />
+<p align="left">
+  <a href="assets/ui/14-seal-post-mood.jpg"><img src="assets/ui/14-seal-post-mood.jpg" alt="今日已封印" width="72" /></a>
+  <a href="assets/ui/15-record-calendar.jpg"><img src="assets/ui/15-record-calendar.jpg" alt="蚊子包记录月历" width="72" /></a>
+  <a href="assets/ui/16-today-card.jpg"><img src="assets/ui/16-today-card.jpg" alt="今日入册" width="72" /></a>
 </p>
 
 ### 品牌与承诺（附录）
 
-<p>
-  <img src="assets/ui/01-onboard-annno.jpg" alt="Annno 介绍" width="200" />
-  <img src="assets/ui/07-promise-go-press.jpg" alt="对着真蚊子包捏" width="200" />
+<p align="left">
+  <a href="assets/ui/01-onboard-annno.jpg"><img src="assets/ui/01-onboard-annno.jpg" alt="Annno 介绍" width="72" /></a>
+  <a href="assets/ui/07-promise-go-press.jpg"><img src="assets/ui/07-promise-go-press.jpg" alt="对着真蚊子包捏" width="72" /></a>
 </p>
 
 文件清单与拍摄规范见 [展示素材说明](assets/README.md)。

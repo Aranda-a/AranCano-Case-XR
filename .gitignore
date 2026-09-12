@@ -10,6 +10,7 @@ private/
 # 公开演示短片可入库（已压码）
 !assets/demo/*.mp4
 !assets/demo/*.webm
+!assets/demo/*.gif
 
 # 系统与编辑器
 .DS_Store

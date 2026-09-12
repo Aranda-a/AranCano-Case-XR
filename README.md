@@ -177,17 +177,23 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 
 ## 6. 展示材料
 
-公开仓放三段压码短片 + 故事板大图（可点击放大）。单张界面原图不入库。
+公开仓放三段真机 GIF（README 内可直接预览）+ 故事板大图。单张界面原图不入库。
 
 > 入口提醒：主 CTA 暂定 **C（立体跟包）**；A 是兼容退路；B 仅作跟手对照，不进默认入口。
 
 ### 真机短片（三段）
 
-| 片段 | 内容 | 时长约 | 文件 |
-|------|------|--------|------|
-| 开屏与引导 | 开屏动画 → guide 说明 → 主页与引导 | 15s | [demo-onboarding.mp4](assets/demo/demo-onboarding.mp4) |
-| 主路径 C | 立体跟包：对准 → 出模贴住 → 长按 → 收束 | 31s | [demo-track-c.mp4](assets/demo/demo-track-c.mp4) |
-| 次选轻量 A | 兼容退路：轻量平面走法 | 18s | [demo-track-a.mp4](assets/demo/demo-track-a.mp4) |
+GitHub 文件页对 mp4 常无法内嵌播放；README 用 GIF 可直接预览。
+
+| 开屏与引导 · 15s | 主路径 C · 31s | 次选轻量 A · 18s |
+|:---:|:---:|:---:|
+| ![开屏与引导](assets/demo/demo-onboarding.gif) | ![主路径 C](assets/demo/demo-track-c.gif) | ![次选轻量 A](assets/demo/demo-track-a.gif) |
+
+- 开屏与引导：开屏动画 → guide → 主页与引导
+- 主路径 C：立体跟包 · 对准 → 出模贴住 → 长按 → 收束
+- 次选轻量 A：兼容退路 · 轻量平面走法
+
+可选有声清晰版：[onboarding](assets/demo/demo-onboarding.mp4) · [track-c](assets/demo/demo-track-c.mp4) · [track-a](assets/demo/demo-track-a.mp4)
 
 ### 主路径一眼看懂
 

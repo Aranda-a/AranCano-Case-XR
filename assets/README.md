@@ -35,6 +35,7 @@ GIF 压码：宽约 280、8fps、128 色调色板。原片不入库。
 | `storyboard-press-multimodal.png` | 按压：开捏前 → 贴住可按 → 蓄力中 |
 | `storyboard-decision-fallback.png` | 决策与退路：默认 C / 退路 A + 微调贴位 |
 | `storyboard-seal-record.png` | 封印 → 月历 → 今日入册 |
+| `storyboard-seal-stamps.png` | 封印章精选三枚（道具风，非皮肤实拍） |
 | `storyboard-brand-entry.png` | 开屏 → 认识 Annno → 去开捏 |
 | `storyboard-track-a.png` | 轻量平面（轨 A）：开捏前 → 贴图就绪 → 跟包 → 长按蓄力 |
 

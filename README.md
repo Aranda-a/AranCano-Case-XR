@@ -169,19 +169,23 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 
 ## 6. 展示材料
 
-当前先上界面橱窗；完整 Hero 视频稍后补入 `assets/`。缩略图一排展示，点击可打开原图。
+当前先上界面橱窗；完整 Hero 视频稍后补入 `assets/`。主路径用横条故事板一眼讲完；下方小图可点开原图。
 
 ### 主路径一眼看懂
 
 从打开到按住，再到收束：
 
+[![主路径故事板：打开 → 对准 → 选台面 → 出模贴住 → 长按蓄力 → 封印收束](assets/storyboard-main-path.png)](assets/storyboard-main-path.png)
+
+原图（点击放大）：
+
 <p align="left">
-  <a href="assets/ui/08-home-cta.jpg"><img src="assets/ui/08-home-cta.jpg" alt="主页：对准开捏" width="72" /></a>
-  <a href="assets/ui/09-scan-aim.jpg"><img src="assets/ui/09-scan-aim.jpg" alt="对准蚊子包" width="72" /></a>
-  <a href="assets/ui/10-surface-chooser.jpg"><img src="assets/ui/10-surface-chooser.jpg" alt="选台面开捏" width="72" /></a>
-  <a href="assets/ui/12-ar-ready-relock.jpg"><img src="assets/ui/12-ar-ready-relock.jpg" alt="立体跟包与微调贴位" width="72" /></a>
-  <a href="assets/ui/13-press-progress.jpg"><img src="assets/ui/13-press-progress.jpg" alt="长按蓄力中" width="72" /></a>
-  <a href="assets/ui/14-seal-post-mood.jpg"><img src="assets/ui/14-seal-post-mood.jpg" alt="封印与后测" width="72" /></a>
+  <a href="assets/ui/08-home-cta.jpg"><img src="assets/ui/08-home-cta.jpg" alt="主页：对准开捏" width="56" /></a>
+  <a href="assets/ui/09-scan-aim.jpg"><img src="assets/ui/09-scan-aim.jpg" alt="对准蚊子包" width="56" /></a>
+  <a href="assets/ui/10-surface-chooser.jpg"><img src="assets/ui/10-surface-chooser.jpg" alt="选台面开捏" width="56" /></a>
+  <a href="assets/ui/12-ar-ready-relock.jpg"><img src="assets/ui/12-ar-ready-relock.jpg" alt="立体跟包与微调贴位" width="56" /></a>
+  <a href="assets/ui/13-press-progress.jpg"><img src="assets/ui/13-press-progress.jpg" alt="长按蓄力中" width="56" /></a>
+  <a href="assets/ui/14-seal-post-mood.jpg"><img src="assets/ui/14-seal-post-mood.jpg" alt="封印与后测" width="56" /></a>
 </p>
 
 ### 1. 完整体验视频（待补）

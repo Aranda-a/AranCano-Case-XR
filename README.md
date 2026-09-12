@@ -240,9 +240,12 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
   <a href="assets/ui/16-today-card.jpg"><img src="assets/ui/16-today-card.jpg" alt="今日入册" width="72" /></a>
 </p>
 
-### 品牌与承诺（附录）
+### 品牌与开屏（附录）
+
+图二为 **Splash / Launch Screen（开屏启动页）**：冷启动时先亮品牌符号与名称，建立识别，再进入引导或主页。也叫 Brand Entry / Launch Screen；它不是功能教学页，也不承担对准任务。
 
 <p align="left">
+  <a href="assets/ui/00-splash-intro.jpg"><img src="assets/ui/00-splash-intro.jpg" alt="开屏启动页 Splash" width="72" /></a>
   <a href="assets/ui/01-onboard-annno.jpg"><img src="assets/ui/01-onboard-annno.jpg" alt="Annno 介绍" width="72" /></a>
   <a href="assets/ui/07-promise-go-press.jpg"><img src="assets/ui/07-promise-go-press.jpg" alt="对着真蚊子包捏" width="72" /></a>
 </p>

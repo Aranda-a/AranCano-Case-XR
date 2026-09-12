@@ -8,6 +8,7 @@
 
 | 文件 | 内容 | 公开仓用途 |
 |------|------|------------|
+| `00-splash-intro.jpg` | 开屏启动页（Splash / Launch Screen） | 品牌开屏 |
 | `01-onboard-annno.jpg` | Annno 介绍与三卡价值 | 品牌附录 |
 | `02-guide-want-scratch.jpg` | 引导：想挠 | 闭环分镜 |
 | `03-guide-shutter.jpg` | 引导：快门对准 | 闭环分镜 |
@@ -16,7 +17,7 @@
 | `06-guide-seal.jpg` | 引导：出餐/封印 | 闭环分镜 |
 | `07-promise-go-press.jpg` | 对着真蚊子包捏 | 品牌附录 |
 | `08-home-cta.jpg` | 主页「对准，开捏」 | 主路径 |
-| `09-scan-aim.jpg` | 对准真包 | 主路径 |
+| `09-scan-aim.jpg` | 对准真包（扫描瞄准页） | 主路径 |
 | `10-surface-chooser.jpg` | 立体跟包 / 轻量平面 | 主路径、降级入口 |
 | `11-pre-press-mood.jpg` | 开捏前冲动滑条 | 按压与验证 |
 | `12-ar-ready-relock.jpg` | 立体包 + 微调贴位 | 主路径、贴附决策 |

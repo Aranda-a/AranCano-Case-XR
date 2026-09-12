@@ -169,24 +169,13 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 
 ## 6. 展示材料
 
-当前先上界面橱窗；完整 Hero 视频稍后补入 `assets/`。主路径用横条故事板一眼讲完；下方小图可点开原图。
+公开仓只放故事板大图（可点击放大）。单张界面原图留在实现仓，避免素材散落与重复。完整 Hero 视频稍后补入。
 
 ### 主路径一眼看懂
 
 从打开到按住，再到收束：
 
-[![主路径故事板：打开 → 对准 → 选台面 → 出模贴住 → 长按蓄力 → 封印收束](assets/storyboard-main-path.png)](assets/storyboard-main-path.png)
-
-原图（点击放大）：
-
-<p align="left">
-  <a href="assets/ui/08-home-cta.jpg"><img src="assets/ui/08-home-cta.jpg" alt="主页：对准开捏" width="56" /></a>
-  <a href="assets/ui/09-scan-aim.jpg"><img src="assets/ui/09-scan-aim.jpg" alt="对准蚊子包" width="56" /></a>
-  <a href="assets/ui/10-surface-chooser.jpg"><img src="assets/ui/10-surface-chooser.jpg" alt="选台面开捏" width="56" /></a>
-  <a href="assets/ui/12-ar-ready-relock.jpg"><img src="assets/ui/12-ar-ready-relock.jpg" alt="立体跟包与微调贴位" width="56" /></a>
-  <a href="assets/ui/13-press-progress.jpg"><img src="assets/ui/13-press-progress.jpg" alt="长按蓄力中" width="56" /></a>
-  <a href="assets/ui/14-seal-post-mood.jpg"><img src="assets/ui/14-seal-post-mood.jpg" alt="封印与后测" width="56" /></a>
-</p>
+[![主路径故事板](assets/storyboard-main-path.png)](assets/storyboard-main-path.png)
 
 ### 1. 完整体验视频（待补）
 
@@ -194,67 +183,41 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 
 ### 2. 闭环分镜
 
-引导把「想挠」改写成可完成的四步：
+引导把「想挠」改写成可完成的步骤：
 
-<p align="left">
-  <a href="assets/ui/02-guide-want-scratch.jpg"><img src="assets/ui/02-guide-want-scratch.jpg" alt="想挠" width="72" /></a>
-  <a href="assets/ui/03-guide-shutter.jpg"><img src="assets/ui/03-guide-shutter.jpg" alt="快门" width="72" /></a>
-  <a href="assets/ui/04-guide-recognize.jpg"><img src="assets/ui/04-guide-recognize.jpg" alt="识别出包" width="72" /></a>
-  <a href="assets/ui/05-guide-longpress.jpg"><img src="assets/ui/05-guide-longpress.jpg" alt="长按" width="72" /></a>
-  <a href="assets/ui/06-guide-seal.jpg"><img src="assets/ui/06-guide-seal.jpg" alt="出餐封印" width="72" /></a>
-</p>
+[![闭环分镜故事板](assets/storyboard-guide-loop.png)](assets/storyboard-guide-loop.png)
 
 ### 3. 按压与多通道
 
-开捏前先问冲动，按住过程里进度、雷达和文案一起走：
+开捏前先问冲动，贴住后再按，蓄力过程里进度一起走：
 
-<p align="left">
-  <a href="assets/ui/11-pre-press-mood.jpg"><img src="assets/ui/11-pre-press-mood.jpg" alt="开捏前冲动滑条" width="72" /></a>
-  <a href="assets/ui/12-ar-ready-relock.jpg"><img src="assets/ui/12-ar-ready-relock.jpg" alt="立体包已贴住" width="72" /></a>
-  <a href="assets/ui/13-press-progress.jpg"><img src="assets/ui/13-press-progress.jpg" alt="按压进度中段" width="72" /></a>
-</p>
+[![按压与多通道故事板](assets/storyboard-press-multimodal.png)](assets/storyboard-press-multimodal.png)
 
-### 4. 三轨同动作对比
+### 4. 决策与退路
 
-同镜 B/C 对比视频待补。当前先展示产品入口如何分配轨道角色：默认立体跟包（C），旁路轻量平面（A）。
+默认立体跟包（C）；旁路轻量平面（A）。目标换位时用「微调贴位」主动校正。同镜 B/C 对比与硬失败真机片段待补；当前用产品入口说明退路设计。
 
-<p align="left">
-  <a href="assets/ui/10-surface-chooser.jpg"><img src="assets/ui/10-surface-chooser.jpg" alt="立体跟包与轻量平面" width="72" /></a>
-</p>
+[![决策与退路故事板](assets/storyboard-decision-fallback.png)](assets/storyboard-decision-fallback.png)
 
-### 5. 贴附决策
-
-世界锚点稳住镜头运动；目标真的换位时，提示用户点「微调贴位」主动校正。
-
-<p align="left">
-  <a href="assets/ui/12-ar-ready-relock.jpg"><img src="assets/ui/12-ar-ready-relock.jpg" alt="微调贴位提示" width="72" /></a>
-</p>
-
-### 6. 失败与降级
-
-选台面保留轻量平面退路；互动中也可「改走轻量平面」，同一次瞄准不必重拍。失败真机片段待补。
-
-### 7. 封印与记录
+### 5. 封印与记录
 
 完成凭证进记录，不靠排行榜留人：
 
-<p align="left">
-  <a href="assets/ui/14-seal-post-mood.jpg"><img src="assets/ui/14-seal-post-mood.jpg" alt="今日已封印" width="72" /></a>
-  <a href="assets/ui/15-record-calendar.jpg"><img src="assets/ui/15-record-calendar.jpg" alt="蚊子包记录月历" width="72" /></a>
-  <a href="assets/ui/16-today-card.jpg"><img src="assets/ui/16-today-card.jpg" alt="今日入册" width="72" /></a>
-</p>
+[![封印与记录故事板](assets/storyboard-seal-record.png)](assets/storyboard-seal-record.png)
 
-### 品牌与开屏（附录）
+### 6. 品牌与入场（附录）
 
-图二为 **Splash / Launch Screen（开屏启动页）**：冷启动时先亮品牌符号与名称，建立识别，再进入引导或主页。也叫 Brand Entry / Launch Screen；它不是功能教学页，也不承担对准任务。
+入场分三拍，职责不同：
 
-<p align="left">
-  <a href="assets/ui/00-splash-intro.jpg"><img src="assets/ui/00-splash-intro.jpg" alt="开屏启动页 Splash" width="72" /></a>
-  <a href="assets/ui/01-onboard-annno.jpg"><img src="assets/ui/01-onboard-annno.jpg" alt="Annno 介绍" width="72" /></a>
-  <a href="assets/ui/07-promise-go-press.jpg"><img src="assets/ui/07-promise-go-press.jpg" alt="对着真蚊子包捏" width="72" /></a>
-</p>
+1. **Splash / Launch Screen（开屏）**：冷启动先亮品牌符号与名称，建立识别
+2. **Onboarding Intro（引导开场）**：认识 Annno，说明从想挠到开捏
+3. **Promise CTA（承诺页）**：对着真蚊子包捏，进入主任务
 
-文件清单与拍摄规范见 [展示素材说明](assets/README.md)。
+开屏不是功能教学，也不承担对准；对准发生在扫描页。
+
+[![品牌与入场故事板](assets/storyboard-brand-entry.png)](assets/storyboard-brand-entry.png)
+
+文件清单见 [展示素材说明](assets/README.md)。
 
 ---
 

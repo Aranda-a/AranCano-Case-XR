@@ -1,6 +1,6 @@
 # AranCano · 互动产品说明
 
-> 把短暂的皮肤烦躁，做成一个可以完成、可以停止的摄像头按压闭环。
+> 抓挠冲动来的那几秒：给手一个按得完、停得下的屏幕动作。
 
 AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后，屏幕生成可按压的视觉替身；持续按压会驱动模型形变、声音、振动和界面反馈，最终以塌陷和封印完成收束。
 
@@ -15,6 +15,7 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 - **约 2 分钟**：读完本页
 - **约 5 分钟**：再看 [产品说明](docs/CASE-STUDY.md)
 - **面试 / 验证**：看 [验证计划](docs/VALIDATION.md)
+- **轻量数据卡怎么填**：[METRICS.md](docs/METRICS.md)
 - **素材清单**：[展示素材说明](assets/README.md) · [公开说明](NOTICE.md)
 
 ---
@@ -59,6 +60,16 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 ```
 
 体验是否成立，主要看三点：像不像贴在包上、按着是否可信、按满有没有结束感。
+
+### 真机轻量数据卡（匿名 · 小样本）
+
+| 指标 | 数值 | 口径 |
+|------|------|------|
+| 完成率 | — | 一局内按满并封印的比例；**n=待填** |
+| 想挠分数前后变化 | — | 仅统计认真拖过滑条的前后探针；正数=平均下降；**n=待填** |
+| 退到轻量 A | — | C 进场失败后进入退路的次数；**n=待填** |
+
+> 样本来自本机埋点队列导出，不作疗效或显著性结论。导出与汇总步骤见 [METRICS.md](docs/METRICS.md)。填入数字后把「待填」换成真实 n。
 
 ---
 
@@ -147,33 +158,44 @@ GitHub 打开 mp4 文件页常常不能播，所以主预览用 GIF。
 
 有声版：[onboarding](assets/demo/demo-onboarding.mp4) · [track-c](assets/demo/demo-track-c.mp4) · [track-a](assets/demo/demo-track-a.mp4)
 
-### 故事板
+### 故事板（展开查看）
 
-**主路径**
+首屏只保留主路径一张；其余收在折叠里，避免一屏刷太长。
 
 [![主路径故事板](assets/storyboard-main-path.png)](assets/storyboard-main-path.png)
 
-**引导闭环**（想挠 → 快门 → 识别 → 长按 → 封印）
+<details>
+<summary><strong>引导闭环</strong> · 想挠 → 快门 → 识别 → 长按 → 封印</summary>
 
 [![闭环分镜故事板](assets/storyboard-guide-loop.png)](assets/storyboard-guide-loop.png)
 
-**按压**（开捏前 → 可贴 → 蓄力中）
+</details>
+
+<details>
+<summary><strong>按压与多通道</strong> · 开捏前 → 可贴 → 蓄力中</summary>
 
 [![按压与多通道故事板](assets/storyboard-press-multimodal.png)](assets/storyboard-press-multimodal.png)
 
-**决策与退路**（默认 C / 退路 A + 微调贴位）
+</details>
+
+<details>
+<summary><strong>决策与退路</strong> · 默认 C / 退路 A + 微调贴位</summary>
 
 [![决策与退路故事板](assets/storyboard-decision-fallback.png)](assets/storyboard-decision-fallback.png)
 
-**轻量平面 A**
+</details>
+
+<details>
+<summary><strong>轻量平面 A</strong></summary>
 
 [![轻量平面轨 A 故事板](assets/storyboard-track-a.png)](assets/storyboard-track-a.png)
 
-**封印与月历**
+</details>
+
+<details>
+<summary><strong>封印、月历与封印章</strong></summary>
 
 [![封印与记录故事板](assets/storyboard-seal-record.png)](assets/storyboard-seal-record.png)
-
-**封印章**（道具风，非皮肤实拍）
 
 [![封印章示意](assets/storyboard-seal-stamps.png)](assets/storyboard-seal-stamps.png)
 
@@ -191,11 +213,16 @@ GitHub 打开 mp4 文件页常常不能播，所以主预览用 GIF。
 
 日历 / 周报以后可接 AI API；封印当刻仍用本地文案。
 
-**入场**（开屏 → 认识 Annno → 去开捏）
+</details>
+
+<details>
+<summary><strong>入场</strong> · 开屏 → 认识 Annno → 去开捏</summary>
 
 开屏只亮品牌；对准发生在扫描页。
 
 [![品牌与入场故事板](assets/storyboard-brand-entry.png)](assets/storyboard-brand-entry.png)
+
+</details>
 
 更多文件说明见 [展示素材说明](assets/README.md)。
 

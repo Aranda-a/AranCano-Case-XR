@@ -1,16 +1,17 @@
 # -*- coding: utf-8 -*-
-"""Generate public portfolio storyboard strips from private-sourced UI frames."""
-from PIL import Image, ImageDraw, ImageFont
+"""Generate public storyboard strips from local UI frames (or ARANCANO_UI_FRAMES)."""
+import os
 from pathlib import Path
+
+from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets"
-# Prefer local frames if present; otherwise read from private implementation repo.
-_CANDIDATES = [
-    ROOT / "assets" / "ui",
-    Path(r"e:\AranCano\蚊子包AR游戏\docs\portfolio-assets\ui"),
-]
-UI = next((p for p in _CANDIDATES if p.exists()), _CANDIDATES[0])
+# Local frames only. Optional override: ARANCANO_UI_FRAMES=/path/to/ui
+_env = os.environ.get("ARANCANO_UI_FRAMES", "").strip()
+_CANDIDATES = [Path(_env)] if _env else []
+_CANDIDATES.append(ROOT / "assets" / "ui")
+UI = next((p for p in _CANDIDATES if p.exists()), _CANDIDATES[-1])
 
 BOARDS = {
     "storyboard-main-path.png": [

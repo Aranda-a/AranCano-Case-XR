@@ -189,12 +189,6 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 | 主路径 C | 立体跟包：对准 → 出模贴住 → 长按 → 收束 | 31s | [demo-track-c.mp4](assets/demo/demo-track-c.mp4) |
 | 次选轻量 A | 兼容退路：轻量平面走法 | 18s | [demo-track-a.mp4](assets/demo/demo-track-a.mp4) |
 
-[![开屏与引导](assets/demo/poster-onboarding.jpg)](assets/demo/demo-onboarding.mp4)
-
-[![主路径 C](assets/demo/poster-track-c.jpg)](assets/demo/demo-track-c.mp4)
-
-[![次选轻量 A](assets/demo/poster-track-a.jpg)](assets/demo/demo-track-a.mp4)
-
 ### 主路径一眼看懂
 
 从打开到按住，再到收束：

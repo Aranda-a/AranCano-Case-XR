@@ -9,9 +9,8 @@
 | `demo-onboarding.mp4` | 开屏动画 → guide 说明 → 主页与引导 | 15s | onboarding.mp4 |
 | `demo-track-c.mp4` | 主路径 C（立体跟包） | 31s | CcoreGame.mp4 |
 | `demo-track-a.mp4` | 次选轻量路径 A | 18s | AsideGame.mp4 |
-| `poster-*.jpg` | README 封面图（点开进对应 mp4） | — | 从短片抽帧 |
 
-压码说明：高度上限 720、H.264 CRF 26、`faststart`，便于 GitHub 直链预览。原片不入库。
+压码说明：高度上限 720、H.264 CRF 26、`faststart`，便于 GitHub 直链预览。原片不入库。README 只用表格链到 mp4，不放封面图。
 
 入口角色：C 暂定主 CTA；A 兼容退路；B 不进默认入口。
 

@@ -47,6 +47,12 @@ BOARDS = {
         ("01-onboard-annno.jpg", "认识Annno"),
         ("07-promise-go-press.jpg", "去开捏"),
     ],
+    "storyboard-track-a.png": [
+        ("a01-pre-press-mood.jpg", "开捏前"),
+        ("a02-css-ready.jpg", "贴图就绪"),
+        ("a03-css-follow.jpg", "贴图跟包"),
+        ("a04-css-pressing.jpg", "长按蓄力"),
+    ],
 }
 
 THUMB_H = 780

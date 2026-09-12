@@ -199,6 +199,12 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 
 [![决策与退路故事板](assets/storyboard-decision-fallback.png)](assets/storyboard-decision-fallback.png)
 
+### 4.1 轻量平面（轨 A）
+
+兼容退路的完整走法：开捏前 → 贴图就绪 → 跟包 → 长按蓄力。
+
+[![轻量平面轨 A 故事板](assets/storyboard-track-a.png)](assets/storyboard-track-a.png)
+
 ### 5. 封印与记录
 
 完成凭证进记录，不靠排行榜留人：

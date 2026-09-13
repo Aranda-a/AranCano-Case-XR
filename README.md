@@ -16,7 +16,7 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 
 ## 怎么读
 
-- **约 30 秒**：定位 + 下方三格 GIF  
+- **约 30 秒**：先点下方 **有声主片（C）**，再扫三格 GIF  
 - **约 2 分钟**：问题认领 → 取舍 → 数据卡  
 - **深挖**：故事板折叠 · [验证计划](docs/VALIDATION.md) · [METRICS.md](docs/METRICS.md) · [展示素材说明](assets/README.md)
 
@@ -24,18 +24,25 @@ AranCano 是一个微信小程序交互原型。用户对准真实蚊子包后�
 
 ## 1. 真机短片（先看动起来的证据）
 
-默认入口：**C 立体跟包**；A 退路；B 仅对照。  
-GitHub 打开 mp4 文件页常常不能播，所以主预览用 GIF。
+默认入口：**C 立体跟包**；A 退路；B 仅对照。
+
+### 有声版（推荐先点 · 含按压音效）
+
+真机录屏带声音；GitHub 点进文件页即可播放（README 内嵌常无声）。
+
+| 优先级 | 片段 | 时长 | 打开有声 |
+|--------|------|------|----------|
+| **主看** | 主路径 C：对准 → 贴住 → 长按 → 收束 | 31s | **[有声 · track-c](assets/demo/demo-track-c.mp4)** |
+| 次看 | 开屏与引导 | 15s | [有声 · onboarding](assets/demo/demo-onboarding.mp4) |
+| 退路 | 轻量 A | 18s | [有声 · track-a](assets/demo/demo-track-a.mp4) |
+
+试用里有人提「音效不错」——听感是多通道里已验证的一环，面试时优先放 **C 有声**。
+
+### 无声预览（本页可直接动）
 
 | 开屏与引导 · 15s | 主路径 C · 31s | 次选轻量 A · 18s |
 |:---:|:---:|:---:|
 | ![开屏与引导](assets/demo/demo-onboarding.gif) | ![主路径 C](assets/demo/demo-track-c.gif) | ![次选轻量 A](assets/demo/demo-track-a.gif) |
-
-- 开屏与引导：开屏 → 说明 → 主页  
-- 主路径 C：对准 → 贴住 → 长按 → 收束  
-- 轻量 A：兼容退路走法  
-
-有声版：[onboarding](assets/demo/demo-onboarding.mp4) · [track-c](assets/demo/demo-track-c.mp4) · [track-a](assets/demo/demo-track-a.mp4)
 
 主流程：
 
